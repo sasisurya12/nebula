@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Grandiflora+One&family=Italianno&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bacasime+Antique&display=swap'); 
+
+*{
+    margin: 0%;
+    padding: 0%;
+} 
+body{
+    background-color: #f0e68c7c;
+}
+a {
+    text-decoration: none;
+    padding-left: 5px;
+    color: #f1bc0e;
+    font-size: 8px;
+}
+a:hover {
+    font-size: 9px;
+    text-decoration: underline;
+}
+
+.Navbar a{
+    font-family: 'Bacasime Antique', serif;
+}
+
+.Navbar ul {
+    margin-top: -30px;
+    list-style-type: none;
+    display: flex;
+    position: absolute;
+    justify-content: right;
+    right: 10px;
+}
+
+.Navbar {
+    width: 100%;
+    height: 44px;
+    background-color:#004332;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+.head{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.first {
+    font-family:'Times New Roman', Times, serif;
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 2vh;
+    padding: 10px 25px;
+    height: 20px;
+    color: #f1bc0e;
+}
+.second{
+    font-size: 1vh;
+    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Pacifico', cursive;
+    letter-spacing: 0.8px;
+    color: #f1bc0e;
+
+}
+.about-us{
+    margin-top: 50px;
+    padding: 10px;
+    font-size: 10px;
+    display: grid;
+    grid-template-rows: (2,1fr);
+
+}
+.para1{
+    width: 60%;
+    text-align: center;
+}
+.para2{
+    float: right;
+    width: 60%;
+    text-align: center;
+    margin-left: 36%;
+    margin-top: -22%;
+}
+.para3{
+    width: 60%;
+    text-align: center;
+    margin-top: -22%;
+}
+.para4{
+    margin-top: 10%;
+    text-align: center;
+}
+.img1 img{
+    float: right;
+    align-items: center;
+    padding-right: 2%;
+    margin-top: -27%;
+    height: 60px;
+    border-radius: 10% 10%;
+}
+.img2 img{
+    align-items: center;
+    padding: 2%;
+    height: 50px;
+    margin-top: 2%;
+    border-radius: 10% 10% ;
+}
+.img3 img{
+    float: right;
+    align-items: center;
+    margin-top: 2%;
+    padding: 2%;
+    height: 50px;
+    border-radius: 10% 10%;
+}
+.img1{
+    float: right;
+    margin-top: -10%;
+    height: 60px;
+    margin-left: 60% ;
+    padding: 10px;
+    border-radius: 10% 10%;
+}
+.img2{
+    float: left;
+    height: 50px;
+    padding: 10px;
+    margin: 0%;
+    margin-left: -10px;
+    border-radius: 10% 10%;
+}
+.img3{
+    float: right;
+    padding: 10px;
+    margin-top: 70px;
+    height: 50px;
+    margin-left: 60% ;
+    border-radius: 10% 10%;
+}
+footer {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+    color: #333;
+    font-size: 20px;
+  }
+  
+  .social-icons a:hover {
+    color: #007bff;
+  }
+  
+  .fa {
+    display: inline-block;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 50%;
+    transition: color 0.3s;
+  }
+  .copyright{
+    padding: 20px;
+    font-size: 10px;
+  }
+@media all and (min-width : 500px) {
+    body{
+        background-color: #f0e68c7c;
+    }
+    a {
+        font-size: 25px;
+        font-family: 'Bacasime Antique', serif;
+        text-decoration: none;
+        padding-left: 20px;
+        color: #f1bc0e;
+    }
+    a:hover {
+        font-size: 27px;
+        text-decoration: underline;
+        color: #f1bc0e;
+    }
+   
+    .Navbar a{
+        font-family: 'Bacasime Antique', serif;
+    }
+    
+    .Navbar ul {
+        list-style-type: none;
+        display: flex;
+        position: absolute;
+        justify-content: right;
+        right: 30px;
+        margin-top: 95px;
+    }
+    
+    .Navbar {
+        width: 100%;
+        height: 150px;
+        background-color:#004332;
+        display: flex;
+        flex-direction: row;
+        position: fixed;
+        top: 0;
+        z-index: 1000;
+    }
+
+    .head{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .first {
+        font-family: 'Bacasime Antique', serif;
+        font-family: 'Cinzel Decorative', cursive;
+        font-size: 8vh;
+        padding: 10px 25px;
+        height: 20px;
+        letter-spacing: 1px;
+        color: #f1bc0e;
+    }
+    .second{
+        margin-top: 35px;
+        margin-left: 70px;
+        font-size: 3vh;
+        font-family: 'Bacasime Antique', serif;
+        font-family: 'Pacifico', cursive;
+        letter-spacing: 1px;
+        color: #f1bc0e;
+    
+    }
+    .about-us{
+        font-size: 20px;
+        padding: 20px;
+        display: grid;
+        grid-template-rows: (2,1fr);
+        margin-top: 150px;
+       
+    }
+    .para1{
+        text-align: center;
+        margin-top: 80px;
+
+        font-size: 20px;
+        padding: 20px;
+        margin-left: 60px;
+        width: 40%;
+        margin-right: 10px;
+    }
+    .para2{
+        text-align: center;
+
+        font-size: 20px;
+        padding: 20px;
+        margin-left: 620px;
+        margin-top: -240px;
+        width: 40%;
+    }
+    .para3{
+        text-align: center;
+        font-size: 20px;
+        padding: 20px;
+        margin-left: 60px;
+        margin-right: 10px;
+        margin-top: -250px;
+        width: 40%;
+    }
+    .para4{
+
+        font-size: 20px;
+        padding: 20px;
+        margin-top: 50px;
+        text-align: center ;
+    } 
+    .img1 img{
+        float: right;
+        width: 400px;
+        height: 300px;
+        margin-top: -10px;
+        border-radius: 10% 10%;
+
+    }
+    .img2 img{
+
+        float: left;
+        width: 400px;
+        height: 300px;
+        border-radius: 10% 10%;
+
+    }
+    .img3 img{
+        float: right;
+        width: 400px;
+        height: 300px;
+        border-radius: 10% 10%;
+    }
+
+    .img1{
+        float: right;
+        margin-top: -20%;
+        border-radius: 10% 10%;
+        width: 400px;
+        height: 300px;
+    }
+    .img2{
+        border-radius: 10% 10%;
+        float: left;
+        width: 400px;
+        height: 300px;
+        margin-left: 65px;
+    }
+    .img3{
+        float: right;
+        margin-top: 50px;
+        width: 400px;
+        height: 300px;
+        margin-left: 60% ;
+        border-radius: 10% 10%;
+    }
+    footer {
+        background-color: #f1f1f1;
+        padding: 20px;
+        text-align: center;
+      }
+      
+      .social-icons a {
+        display: inline-block;
+        margin: 0 10px;
+        color: #333;
+        font-size: 20px;
+      }
+      
+      .social-icons a:hover {
+        color: #007bff;
+      }
+      
+      .fa {
+        display: inline-block;
+        padding: 10px;
+        font-size: 20px;
+        border-radius: 50%;
+        transition: color 0.3s;
+      }
+      .copyright{
+        padding: 20px;
+        font-size: 20px;
+      }
+}

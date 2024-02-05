@@ -1,0 +1,485 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Grandiflora+One&family=Italianno&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bacasime+Antique&display=swap'); 
+
+*{
+    margin: 0%;
+    padding: 0%;
+} 
+body{
+    background-color: #f0e68c7c;
+}
+    a {
+        text-decoration: none;
+        padding-left: 5px;
+        color: #f1bc0e;
+        font-size: 8px;
+    }
+    a:hover {
+        font-size: 9px;
+        text-decoration: underline;
+    }
+    
+    .Navbar a{
+        font-family: 'Bacasime Antique', serif;
+    }
+    
+    .Navbar ul {
+        margin-top: -30px;
+        list-style-type: none;
+        display: flex;
+        position: absolute;
+        justify-content: right;
+        right: 10px;
+    }
+    
+    .Navbar {
+        width: 100%;
+        height: 44px;
+        background-color:#004332;
+        position: fixed;
+        top: 0;
+        z-index: 1000;
+    }
+    .head{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .first {
+        font-family:'Times New Roman', Times, serif;
+        font-family: 'Cinzel Decorative', cursive;
+        font-size: 2vh;
+        padding: 10px 25px;
+        height: 20px;
+        color: #f1bc0e;
+    }
+    .second{
+        font-size: 1vh;
+        font-family: 'Times New Roman', Times, serif;
+        font-family: 'Pacifico', cursive;
+        letter-spacing: 0.8px;
+        color: #f1bc0e;
+    
+    }
+
+#Booking{
+    padding: 20px;
+    margin: 20px;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    font-family:'Bacasime Antique', serif;
+    letter-spacing: 0.8px;
+}
+#Booking a{
+    font-size: large;
+}
+#Booking a:hover{
+    text-decoration: overline underline;
+    height: 105%;
+    width: 105%;
+    font-size: x-large;
+}
+.candle{
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+.candle img{
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height: 100%;
+    border-radius: 10% 10%;
+}
+.candle img:hover{
+    height: 105%;
+    width: 105%;
+}
+.candle a{
+    margin: 0%;
+    padding: 0%;
+    color: black;
+    text-decoration: none;
+}
+.anniversary{
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+.anniversary img{
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height: 100%;
+    border-radius: 10% 10%;
+}
+.anniversary img:hover{
+    height: 105%;
+    width: 105%;
+}
+.anniversary a{
+    margin: 0%;
+    padding: 0%;
+    color: black;
+    text-decoration: none;
+}
+.birthday{
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+.birthday img{
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height: 100%;
+    border-radius: 10% 10%;
+}
+.birthday img:hover{
+    height: 105%;
+    width: 105%;
+}
+.birthday a{
+    margin: 0%;
+    padding: 0%;
+    color: black;
+    text-decoration: none;
+}
+.friends{
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+.friends img{
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height: 100%;
+    border-radius: 10% 10%;
+}
+.friends img:hover{
+    height: 105%;
+    width: 105%;
+}
+.friends a{
+    margin: 0%;
+    padding: 0%;
+    color: black;
+    text-decoration: none;
+}
+.babies{
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+.babies img{
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height: 100%;
+    border-radius: 10% 10%;
+}
+.babies img:hover{
+    height: 105%;
+    width: 105%;
+}
+.babies a{
+    margin: 0%;
+    padding: 0%;
+    color: black;
+    text-decoration: none;
+}
+.couples{
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+.couples img{
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height: 100%;
+    border-radius: 10% 10%;
+}
+.couples img:hover{
+    height: 105%;
+    width: 105%;
+}
+.couples a{
+    margin: 0%;
+    padding: 0%;
+    color: black;
+    text-decoration: none;
+}
+footer {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+    color: #333;
+    font-size: 20px;
+  }
+  
+  .social-icons a:hover {
+    color: #007bff;
+  }
+  
+  .fa {
+    display: inline-block;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 50%;
+    transition: color 0.3s;
+  }
+  .copyright{
+    padding: 20px;
+    font-size: 10px;
+  }
+@media all and (min-width : 560px) {
+    body{
+        background-color: #f0e68c7c;
+    }
+        a {
+            font-size: 25px;
+            font-family: 'Bacasime Antique', serif;
+            text-decoration: none;
+            padding-left: 20px;
+            color: #f1bc0e;
+        }
+        a:hover {
+            font-size: 27px;
+            text-decoration: underline;
+            color: #f1bc0e;
+        }
+       
+        .Navbar a{
+            font-family: 'Bacasime Antique', serif;
+        }
+        
+        .Navbar ul {
+            list-style-type: none;
+            display: flex;
+            position: absolute;
+            justify-content: right;
+            right: 30px;
+            margin-top: 95px;
+        }
+        
+        .Navbar {
+            width: 100%;
+            height: 150px;
+            background-color:#004332;
+            display: flex;
+            flex-direction: row;
+            position: fixed;
+            top: 0;
+            z-index: 1000;
+        }
+    
+        .head{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .first {
+            font-family: 'Bacasime Antique', serif;
+            font-family: 'Cinzel Decorative', cursive;
+            font-size: 8vh;
+            padding: 10px 25px;
+            height: 20px;
+            letter-spacing: 1px;
+            color: #f1bc0e;
+        }
+        .second{
+            margin-top: 35px;
+            margin-left: 70px;
+            font-size: 3vh;
+            font-family: 'Bacasime Antique', serif;
+            font-family: 'Pacifico', cursive;
+            letter-spacing: 1px;
+            color: #f1bc0e;
+        
+        }
+        #Booking{
+            margin-top: 160px;
+            font-family:'Bacasime Antique', serif;
+            letter-spacing: 0.8px;
+            font-size: 30px;
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+        }
+        #Booking a:hover{
+            text-decoration: overline underline;
+            height: 105%;
+            width: 105%;
+        }
+        .candle{
+            padding: 20px;
+            margin: 20px;
+            text-align: center;
+        }
+        .candle img{
+            margin: 0%;
+            padding: 0%;
+            width: 100%;
+            height: 100%;
+            border-radius: 10% 10%;
+        }
+        .candle img:hover{
+            height: 105%;
+            width: 105%;
+        }
+        .candle a{
+            margin: 0%;
+            padding: 0%;
+            color: black;
+            text-decoration: none;
+        }
+        .anniversary{
+            padding: 20px;
+            margin: 20px;
+            text-align: center;
+        }
+        .anniversary img{
+            margin: 0%;
+            padding: 0%;
+            width: 100%;
+            height: 100%;
+            border-radius: 10% 10%;
+        }
+        .anniversary img:hover{
+            height: 105%;
+            width: 105%;
+        }
+        .anniversary a{
+            margin: 0%;
+            padding: 0%;
+            color: black;
+            text-decoration: none;
+        }
+        .birthday{
+            padding: 20px;
+            margin: 20px;
+            text-align: center;
+        }
+        .birthday img{
+            margin: 0%;
+            padding: 0%;
+            width: 100%;
+            height: 100%;
+            border-radius: 10% 10%;
+        }
+        .birthday img:hover{
+            height: 105%;
+            width: 105%;
+        }
+        .birthday a{
+            margin: 0%;
+            padding: 0%;
+            color: black;
+            text-decoration: none;
+        }
+        .friends{
+            padding: 20px;
+            margin: 20px;
+            text-align: center;
+        }
+        .friends img{
+            margin: 0%;
+            padding: 0%;
+            width: 100%;
+            height: 100%;
+            border-radius: 10% 10%;
+        }
+        .friends img:hover{
+            height: 105%;
+            width: 105%;
+        }
+        .friends a{
+            margin: 0%;
+            padding: 0%;
+            color: black;
+            text-decoration: none;
+        }
+        .babies{
+            padding: 20px;
+            margin: 20px;
+            text-align: center;
+        }
+        .babies img{
+            margin: 0%;
+            padding: 0%;
+            width: 100%;
+            height: 100%;
+            border-radius: 10% 10%;
+        }
+        .babies img:hover{
+            height: 105%;
+            width: 105%;
+        }
+        .babies a{
+            margin: 0%;
+            padding: 0%;
+            color: black;
+            text-decoration: none;
+        }
+        .couples{
+            padding: 20px;
+            margin: 20px;
+            text-align: center;
+        }
+        .couples img{
+            margin: 0%;
+            padding: 0%;
+            width: 100%;
+            height: 100%;
+            border-radius: 10% 10%;
+        }
+        .couples img:hover{
+            height: 105%;
+            width: 105%;
+        }
+        .couples a{
+            margin: 0%;
+            padding: 0%;
+            color: black;
+            text-decoration: none;
+        }
+        footer {
+            background-color: #f1f1f1;
+            padding: 20px;
+            text-align: center;
+          }
+          
+          .social-icons a {
+            display: inline-block;
+            margin: 0 10px;
+            color: #333;
+            font-size: 20px;
+          }
+          
+          .social-icons a:hover {
+            color: #007bff;
+          }
+          
+          .fa {
+            display: inline-block;
+            padding: 10px;
+            font-size: 20px;
+            border-radius: 50%;
+            transition: color 0.3s;
+          }
+          .copyright{
+            padding: 20px;
+            font-size: 20px;
+          }
+
+    
+    } 

@@ -1,0 +1,972 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <!-- footer link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- css code link -->
+    <link rel="stylesheet" href="menu.css">
+</head>
+<style>
+
+</style>
+
+<body>
+    <header>
+        <nav class="Navbar">
+            <div class="head">
+                <div class="first">
+                    <p>
+                        <strong> Nebula </strong> <sub><i><small> THE FOOD UNIVERSE </small></i></sub>
+                    </p>
+                </div>
+                <div class="second">
+                    <p>Good Food & Good Life</p>
+                </div>
+            </div>
+            <div>
+                <ul type="none">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Menu.html">Menu</a></li>
+                    <li><a href="Booking.html">Booking</a></li>
+                    <li><a href="About us.html">About</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- full items -->
+    <div class="houl">
+        <div class="items">
+            <div class="div"><a href="#soups" onclick="soups()">SOUPS</a></div>
+            <div class="div"><a href="#starters" onclick="starters()">STARTERS</a></div>
+            <div class="div"><a href="#Chinese" onclick="chinese()">CHINESE STARTERS</a></div>
+            <div class="div"><a href="#indianstarters" onclick="indianstarters()">INDIAN STARTERS</a></div>
+            <div class="div"><a href="#shawarma" onclick="shawarma()">SHAWARMA</a></div>
+            <div class="div"><a href="#grill" onclick="grill()">GRILL</a></div>
+            <div class="div"><a href="#tandoori" onclick="tandoori()">THANDOORI</a></div>
+            <div class="div"><a href="#Chopsuey" onclick="Chopsuey()">CHOPSUEY</a></div>
+            <div class="div"><a href="#seafood" onclick="seafood()">SEA FOOD</a></div>
+            <div class="div"><a href="#noodle" onclick="noodle()">RICE & NOODLES</a></div>
+            <div class="div"><a href="#breads" onclick="breads()">BREADS</a></div>
+            <div class="div"><a href="#indiangravy" onclick="indiangravy()">INDIAN GRAVY</a></div>
+            <div class="div"><a href="#biriyani" onclick="biriyani()">BIRYANIES</a></div>
+            <div class="div"><a href="#egg" onclick="egg()">EGG</a></div>
+            <div class="div"><a href="#kaadai" onclick="kaadai()">KAADAI</a></div>
+            <div class="div"><a href="#nebulaspl" onclick="nebulaspl()">NEBULA SPECIALS</a></div>
+            <div class="div"><a href="#beverages" onclick="beverages()">BEVERAGES</a></div>
+            <div class="div"><a href="#icecreams" onclick="icecreams()">ICE CREAMS</a></div>
+            <script>
+                let ele = ["shawarma", 'soups', 'Chinese', 'indianstarters', 'Chopsuey', 'seafood', 'noodle',
+                    'indiangravy', 'biriyani', 'breads', 'tandoori', 'grill', 'egg', 'kaadai', 'nebulaspl', 'beverages', 'icecreams']
+
+                function shawarma() {
+                    document.getElementById("shawarma").style.display = 'block'
+                    document.getElementById("starters").style.display = 'none'
+                    document.getElementById("soups").style.display = 'none'
+                    document.getElementById("Chinese").style.display = 'none'
+                    document.getElementById("indianstarters").style.display = 'none'
+                    document.getElementById("Chopsuey").style.display = 'none'
+                    document.getElementById("seafood").style.display = 'none'
+                    document.getElementById("noodle").style.display = 'none'
+                    document.getElementById("indiangravy").style.display = 'none'
+                    document.getElementById("biriyani").style.display = 'none'
+                    document.getElementById("breads").style.display = 'none'
+                    document.getElementById("tandoori").style.display = 'none'
+                    document.getElementById("grill").style.display = 'none'
+                    document.getElementById("egg").style.display = 'none'
+                    document.getElementById("kaadai").style.display = 'none'
+                    document.getElementById("nebulaspl").style.display = 'none'
+                    document.getElementById("beverages").style.display = 'none'
+                    document.getElementById("icecreams").style.display = 'none'
+
+                }
+                function starters() {
+                    document.getElementById("shawarma").style.display = 'none'
+                    document.getElementById("starters").style.display = 'block'
+                    document.getElementById("soups").style.display = 'none'
+                    document.getElementById("Chinese").style.display = 'none'
+                    document.getElementById("indianstarters").style.display = 'none'
+                    document.getElementById("Chopsuey").style.display = 'none'
+                    document.getElementById("seafood").style.display = 'none'
+                    document.getElementById("noodle").style.display = 'none'
+                    document.getElementById("indiangravy").style.display = 'none'
+                    document.getElementById("biriyani").style.display = 'none'
+                    document.getElementById("breads").style.display = 'none'
+                    document.getElementById("tandoori").style.display = 'none'
+                    document.getElementById("grill").style.display = 'none'
+                    document.getElementById("egg").style.display = 'none'
+                    document.getElementById("kaadai").style.display = 'none'
+                    document.getElementById("nebulaspl").style.display = 'none'
+                    document.getElementById("beverages").style.display = 'none'
+                    document.getElementById("icecreams").style.display = 'none'
+
+                }
+                function soups() {
+                    document.getElementById("shawarma").style.display = 'none'
+                    document.getElementById("starters").style.display = 'none'
+                    document.getElementById("soups").style.display = 'block'
+                    document.getElementById("Chinese").style.display = 'none'
+                    document.getElementById("indianstarters").style.display = 'none'
+                    document.getElementById("Chopsuey").style.display = 'none'
+                    document.getElementById("seafood").style.display = 'none'
+                    document.getElementById("noodle").style.display = 'none'
+                    document.getElementById("indiangravy").style.display = 'none'
+                    document.getElementById("biriyani").style.display = 'none'
+                    document.getElementById("breads").style.display = 'none'
+                    document.getElementById("tandoori").style.display = 'none'
+                    document.getElementById("grill").style.display = 'none'
+                    document.getElementById("egg").style.display = 'none'
+                    document.getElementById("kaadai").style.display = 'none'
+                    document.getElementById("nebulaspl").style.display = 'none'
+                    document.getElementById("beverages").style.display = 'none'
+                    document.getElementById("icecreams").style.display = 'none'
+                }
+                function chinese() {
+                    document.getElementById("shawarma").style.display = 'none'
+                    document.getElementById("starters").style.display = 'none'
+                    document.getElementById("soups").style.display = 'none'
+                    document.getElementById("Chinese").style.display = 'block'
+                    document.getElementById("indianstarters").style.display = 'none'
+                    document.getElementById("Chopsuey").style.display = 'none'
+                    document.getElementById("seafood").style.display = 'none'
+                    document.getElementById("noodle").style.display = 'none'
+                    document.getElementById("indiangravy").style.display = 'none'
+                    document.getElementById("biriyani").style.display = 'none'
+                    document.getElementById("breads").style.display = 'none'
+                    document.getElementById("tandoori").style.display = 'none'
+                    document.getElementById("grill").style.display = 'none'
+                    document.getElementById("egg").style.display = 'none'
+                    document.getElementById("kaadai").style.display = 'none'
+                    document.getElementById("nebulaspl").style.display = 'none'
+                    document.getElementById("beverages").style.display = 'none'
+                    document.getElementById("icecreams").style.display = 'none'
+                }
+                function indianstarters() {
+                    document.getElementById("shawarma").style.display = 'none'
+                    document.getElementById("starters").style.display = 'none'
+                    document.getElementById("soups").style.display = 'none'
+                    document.getElementById("Chinese").style.display = 'none'
+                    document.getElementById("indianstarters").style.display = 'block'
+                    document.getElementById("Chopsuey").style.display = 'none'
+                    document.getElementById("seafood").style.display = 'none'
+                    document.getElementById("noodle").style.display = 'none'
+                    document.getElementById("indiangravy").style.display = 'none'
+                    document.getElementById("biriyani").style.display = 'none'
+                    document.getElementById("breads").style.display = 'none'
+                    document.getElementById("tandoori").style.display = 'none'
+                    document.getElementById("grill").style.display = 'none'
+                    document.getElementById("egg").style.display = 'none'
+                    document.getElementById("kaadai").style.display = 'none'
+                    document.getElementById("nebulaspl").style.display = 'none'
+                    document.getElementById("beverages").style.display = 'none'
+                    document.getElementById("icecreams").style.display = 'none'
+                }
+                function Chopsuey() {
+                    document.getElementById("shawarma").style.display = 'none'
+                    document.getElementById("starters").style.display = 'none'
+                    document.getElementById("soups").style.display = 'none'
+                    document.getElementById("Chinese").style.display = 'none'
+                    document.getElementById("indianstarters").style.display = 'none'
+                    document.getElementById("Chopsuey").style.display = 'block'
+                    document.getElementById("seafood").style.display = 'none'
+                    document.getElementById("noodle").style.display = 'none'
+                    document.getElementById("indiangravy").style.display = 'none'
+                    document.getElementById("biriyani").style.display = 'none'
+                    document.getElementById("breads").style.display = 'none'
+                    document.getElementById("tandoori").style.display = 'none'
+                    document.getElementById("grill").style.display = 'none'
+                    document.getElementById("egg").style.display = 'none'
+                    document.getElementById("kaadai").style.display = 'none'
+                    document.getElementById("nebulaspl").style.display = 'none'
+                    document.getElementById("beverages").style.display = 'none'
+                    document.getElementById("icecreams").style.display = 'none'
+                }
+                function seafood() {
+                    document.getElementById("shawarma").style.display = 'none'
+                    document.getElementById("starters").style.display = 'none'
+                    document.getElementById("soups").style.display = 'none'
+                    document.getElementById("Chinese").style.display = 'none'
+                    document.getElementById("indianstarters").style.display = 'none'
+                    document.getElementById("Chopsuey").style.display = 'none'
+                    document.getElementById("seafood").style.display = 'block'
+                    document.getElementById("noodle").style.display = 'none'
+                    document.getElementById("indiangravy").style.display = 'none'
+                    document.getElementById("biriyani").style.display = 'none'
+                    document.getElementById("breads").style.display = 'none'
+                    document.getElementById("tandoori").style.display = 'none'
+                    document.getElementById("grill").style.display = 'none'
+                    document.getElementById("egg").style.display = 'none'
+                    document.getElementById("kaadai").style.display = 'none'
+                    document.getElementById("nebulaspl").style.display = 'none'
+                    document.getElementById("beverages").style.display = 'none'
+                    document.getElementById("icecreams").style.display = 'none'
+                }
+                function noodle() {
+                    document.getElementById("shawarma").style.display = 'none'
+                    document.getElementById("starters").style.display = 'none'
+                    document.getElementById("soups").style.display = 'none'
+                    document.getElementById("Chinese").style.display = 'none'
+                    document.getElementById("indianstarters").style.display = 'none'
+                    document.getElementById("Chopsuey").style.display = 'none'
+                    document.getElementById("seafood").style.display = 'none'
+                    document.getElementById("noodle").style.display = 'block'
+                    document.getElementById("indiangravy").style.display = 'none'
+                    document.getElementById("biriyani").style.display = 'none'
+                    document.getElementById("breads").style.display = 'none'
+                    document.getElementById("tandoori").style.display = 'none'
+                    document.getElementById("grill").style.display = 'none'
+                    document.getElementById("egg").style.display = 'none'
+                    document.getElementById("kaadai").style.display = 'none'
+                    document.getElementById("nebulaspl").style.display = 'none'
+                    document.getElementById("beverages").style.display = 'none'
+                    document.getElementById("icecreams").style.display = 'none'
+                }
+                function indiangravy() {
+                    document.getElementById("shawarma").style.display = 'none'
+                    document.getElementById("starters").style.display = 'none'
+                    document.getElementById("soups").style.display = 'none'
+                    document.getElementById("Chinese").style.display = 'none'
+                    document.getElementById("indianstarters").style.display = 'none'
+                    document.getElementById("Chopsuey").style.display = 'none'
+                    document.getElementById("seafood").style.display = 'none'
+                    document.getElementById("noodle").style.display = 'none'
+                    document.getElementById("indiangravy").style.display = 'block'
+                    document.getElementById("biriyani").style.display = 'none'
+                    document.getElementById("breads").style.display = 'none'
+                    document.getElementById("tandoori").style.display = 'none'
+                    document.getElementById("grill").style.display = 'none'
+                    document.getElementById("egg").style.display = 'none'
+                    document.getElementById("kaadai").style.display = 'none'
+                    document.getElementById("nebulaspl").style.display = 'none'
+                    document.getElementById("beverages").style.display = 'none'
+                    document.getElementById("icecreams").style.display = 'none'
+                }
+                function biriyani() {
+                    document.getElementById("shawarma").style.display = 'none'
+                    document.getElementById("starters").style.display = 'none'
+                    document.getElementById("soups").style.display = 'none'
+                    document.getElementById("Chinese").style.display = 'none'
+                    document.getElementById("indianstarters").style.display = 'none'
+                    document.getElementById("Chopsuey").style.display = 'none'
+                    document.getElementById("seafood").style.display = 'none'
+                    document.getElementById("noodle").style.display = 'none'
+                    document.getElementById("indiangravy").style.display = 'none'
+                    document.getElementById("biriyani").style.display = 'block'
+                    document.getElementById("breads").style.display = 'none'
+                    document.getElementById("tandoori").style.display = 'none'
+                    document.getElementById("grill").style.display = 'none'
+                    document.getElementById("egg").style.display = 'none'
+                    document.getElementById("kaadai").style.display = 'none'
+                    document.getElementById("nebulaspl").style.display = 'none'
+                    document.getElementById("beverages").style.display = 'none'
+                    document.getElementById("icecreams").style.display = 'none'
+                }
+                function breads() {
+                    document.getElementById("shawarma").style.display = 'none'
+                    document.getElementById("starters").style.display = 'none'
+                    document.getElementById("soups").style.display = 'none'
+                    document.getElementById("Chinese").style.display = 'none'
+                    document.getElementById("indianstarters").style.display = 'none'
+                    document.getElementById("Chopsuey").style.display = 'none'
+                    document.getElementById("seafood").style.display = 'none'
+                    document.getElementById("noodle").style.display = 'none'
+                    document.getElementById("indiangravy").style.display = 'none'
+                    document.getElementById("biriyani").style.display = 'none'
+                    document.getElementById("breads").style.display = 'block'
+                    document.getElementById("tandoori").style.display = 'none'
+                    document.getElementById("grill").style.display = 'none'
+                    document.getElementById("egg").style.display = 'none'
+                    document.getElementById("kaadai").style.display = 'none'
+                    document.getElementById("nebulaspl").style.display = 'none'
+                    document.getElementById("beverages").style.display = 'none'
+                    document.getElementById("icecreams").style.display = 'none'
+                }
+                function tandoori() {
+                    document.getElementById("shawarma").style.display = 'none'
+                    document.getElementById("starters").style.display = 'none'
+                    document.getElementById("soups").style.display = 'none'
+                    document.getElementById("Chinese").style.display = 'none'
+                    document.getElementById("indianstarters").style.display = 'none'
+                    document.getElementById("Chopsuey").style.display = 'none'
+                    document.getElementById("seafood").style.display = 'none'
+                    document.getElementById("noodle").style.display = 'none'
+                    document.getElementById("indiangravy").style.display = 'none'
+                    document.getElementById("biriyani").style.display = 'none'
+                    document.getElementById("breads").style.display = 'none'
+                    document.getElementById("tandoori").style.display = 'block'
+                    document.getElementById("grill").style.display = 'none'
+                    document.getElementById("egg").style.display = 'none'
+                    document.getElementById("kaadai").style.display = 'none'
+                    document.getElementById("nebulaspl").style.display = 'none'
+                    document.getElementById("beverages").style.display = 'none'
+                    document.getElementById("icecreams").style.display = 'none'
+                }
+                function grill() {
+                    document.getElementById("shawarma").style.display = 'none'
+                    document.getElementById("starters").style.display = 'none'
+                    document.getElementById("soups").style.display = 'none'
+                    document.getElementById("Chinese").style.display = 'none'
+                    document.getElementById("indianstarters").style.display = 'none'
+                    document.getElementById("Chopsuey").style.display = 'none'
+                    document.getElementById("seafood").style.display = 'none'
+                    document.getElementById("noodle").style.display = 'none'
+                    document.getElementById("indiangravy").style.display = 'none'
+                    document.getElementById("biriyani").style.display = 'none'
+                    document.getElementById("breads").style.display = 'none'
+                    document.getElementById("tandoori").style.display = 'none'
+                    document.getElementById("grill").style.display = 'block'
+                    document.getElementById("egg").style.display = 'none'
+                    document.getElementById("kaadai").style.display = 'none'
+                    document.getElementById("nebulaspl").style.display = 'none'
+                    document.getElementById("beverages").style.display = 'none'
+                    document.getElementById("icecreams").style.display = 'none'
+                }
+                function egg() {
+                    document.getElementById("shawarma").style.display = 'none'
+                    document.getElementById("starters").style.display = 'none'
+                    document.getElementById("soups").style.display = 'none'
+                    document.getElementById("Chinese").style.display = 'none'
+                    document.getElementById("indianstarters").style.display = 'none'
+                    document.getElementById("Chopsuey").style.display = 'none'
+                    document.getElementById("seafood").style.display = 'none'
+                    document.getElementById("noodle").style.display = 'none'
+                    document.getElementById("indiangravy").style.display = 'none'
+                    document.getElementById("biriyani").style.display = 'none'
+                    document.getElementById("breads").style.display = 'none'
+                    document.getElementById("tandoori").style.display = 'none'
+                    document.getElementById("grill").style.display = 'none'
+                    document.getElementById("egg").style.display = 'block'
+                    document.getElementById("kaadai").style.display = 'none'
+                    document.getElementById("nebulaspl").style.display = 'none'
+                    document.getElementById("beverages").style.display = 'none'
+                    document.getElementById("icecreams").style.display = 'none'
+                }
+                function kaadai() {
+                    document.getElementById("shawarma").style.display = 'none'
+                    document.getElementById("starters").style.display = 'none'
+                    document.getElementById("soups").style.display = 'none'
+                    document.getElementById("Chinese").style.display = 'none'
+                    document.getElementById("indianstarters").style.display = 'none'
+                    document.getElementById("Chopsuey").style.display = 'none'
+                    document.getElementById("seafood").style.display = 'none'
+                    document.getElementById("noodle").style.display = 'none'
+                    document.getElementById("indiangravy").style.display = 'none'
+                    document.getElementById("biriyani").style.display = 'none'
+                    document.getElementById("breads").style.display = 'none'
+                    document.getElementById("tandoori").style.display = 'none'
+                    document.getElementById("grill").style.display = 'none'
+                    document.getElementById("egg").style.display = 'none'
+                    document.getElementById("kaadai").style.display = 'block'
+                    document.getElementById("nebulaspl").style.display = 'none'
+                    document.getElementById("beverages").style.display = 'none'
+                    document.getElementById("icecreams").style.display = 'none'
+                }
+                function nebulaspl() {
+                    document.getElementById("shawarma").style.display = 'none'
+                    document.getElementById("starters").style.display = 'none'
+                    document.getElementById("soups").style.display = 'none'
+                    document.getElementById("Chinese").style.display = 'none'
+                    document.getElementById("indianstarters").style.display = 'none'
+                    document.getElementById("Chopsuey").style.display = 'none'
+                    document.getElementById("seafood").style.display = 'none'
+                    document.getElementById("noodle").style.display = 'none'
+                    document.getElementById("indiangravy").style.display = 'none'
+                    document.getElementById("biriyani").style.display = 'none'
+                    document.getElementById("breads").style.display = 'none'
+                    document.getElementById("tandoori").style.display = 'none'
+                    document.getElementById("grill").style.display = 'none'
+                    document.getElementById("egg").style.display = 'none'
+                    document.getElementById("kaadai").style.display = 'none'
+                    document.getElementById("nebulaspl").style.display = 'block'
+                    document.getElementById("beverages").style.display = 'none'
+                    document.getElementById("icecreams").style.display = 'none'
+                }
+                function beverages() {
+                    document.getElementById("shawarma").style.display = 'none'
+                    document.getElementById("starters").style.display = 'none'
+                    document.getElementById("soups").style.display = 'none'
+                    document.getElementById("Chinese").style.display = 'none'
+                    document.getElementById("indianstarters").style.display = 'none'
+                    document.getElementById("Chopsuey").style.display = 'none'
+                    document.getElementById("seafood").style.display = 'none'
+                    document.getElementById("noodle").style.display = 'none'
+                    document.getElementById("indiangravy").style.display = 'none'
+                    document.getElementById("biriyani").style.display = 'none'
+                    document.getElementById("breads").style.display = 'none'
+                    document.getElementById("tandoori").style.display = 'none'
+                    document.getElementById("grill").style.display = 'none'
+                    document.getElementById("egg").style.display = 'none'
+                    document.getElementById("kaadai").style.display = 'none'
+                    document.getElementById("nebulaspl").style.display = 'none'
+                    document.getElementById("beverages").style.display = 'block'
+                    document.getElementById("icecreams").style.display = 'none'
+                }
+                function icecreams() {
+                    document.getElementById("shawarma").style.display = 'none'
+                    document.getElementById("starters").style.display = 'none'
+                    document.getElementById("soups").style.display = 'none'
+                    document.getElementById("Chinese").style.display = 'none'
+                    document.getElementById("indianstarters").style.display = 'none'
+                    document.getElementById("Chopsuey").style.display = 'none'
+                    document.getElementById("seafood").style.display = 'none'
+                    document.getElementById("noodle").style.display = 'none'
+                    document.getElementById("indiangravy").style.display = 'none'
+                    document.getElementById("biriyani").style.display = 'none'
+                    document.getElementById("breads").style.display = 'none'
+                    document.getElementById("tandoori").style.display = 'none'
+                    document.getElementById("grill").style.display = 'none'
+                    document.getElementById("egg").style.display = 'none'
+                    document.getElementById("kaadai").style.display = 'none'
+                    document.getElementById("nebulaspl").style.display = 'none'
+                    document.getElementById("beverages").style.display = 'none'
+                    document.getElementById("icecreams").style.display = 'block'
+                }
+
+            </script>
+
+        </div>
+
+    </div>
+    <div id="menucontent" style="height: 100%;width :100%;">
+
+        <!-- SOUPS -->
+
+        <div class="soups" id="soups" style="display :none;">
+            <div class="soups-items">
+                <h1 class="soups-title">SOUPS</h1><br><br><br>
+                <div id="veg-soups">
+                    <h3 class="veg">VEG</h3>
+                    <ul>
+                        <li>Hot & Sour Soup</li>
+                        <li>Sweet Cron Soup</li>
+                        <li>Tomato Soup</li>
+                        <li>Manchow Soup</li>
+                        <li>Veg Clear Soup</li>
+                    </ul>
+                </div>
+                <div id="non-veg-soups">
+                    <h3 class="non-veg">NON VEG</h3>
+                    <ul>
+                        <li>Chicken Clear Soup</li>
+                        <li>Manchow Chicken Soup</li>
+                        <li>Hot & Sour Chicken Soup</li>
+                        <li>Chicken Sweet Cron Soup</li>
+                        <li>Chettinad Chicken Soup</li>
+                        <li>Nattu Koli Soup</li>
+                        <li>Mutton Chettinad Soup</li>
+                        <li>Mutton Hot & Sour Soup</li>
+                        <li>Mutton Manchow Soup</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- staraters -->
+
+        <div class="starters" id="starters" style="display :none;">
+            <div class="starters-items">
+                <div class="veg">
+                    <h1 class="starter-title">STARTERS</h1><br>
+                    <h3>VEG</h3>
+                    <ul>
+                        <li>French Fires</li>
+                        <li>Peri Peri French Fires</li>
+                        <li>Cheese French Fires</li>
+                        <li>Nuggets (8P)</li>
+                        <li>Veg Fingers (6P)</li>
+                        <li>Gobi 65</li>
+                        <li>Hot Pepper Gobi</li>
+                        <li>Mushroom 65</li>
+                        <li>Hot Pepper Mushroom</li>
+                        <li>Baby Cron 65</li>
+                        <li>Panner 65</li>
+                        <li>Hot Pepper Baby Corn</li>
+                    </ul>
+                </div>
+                <div class="veg">
+                    <h3>VEG ROLL</h3>
+                    <ul>
+                        <li>Veg Roll</li>
+                        <li>Mushroom Roll</li>
+                        <li>Panner Roll</li>
+                        <li>Mixed Veg Roll</li>
+                    </ul>
+                </div>
+                <div class="non-veg">
+                    <h3>NON VEG</h3>
+                    <ul>
+                        <li>Chicken 65</li>
+                        <li>Chicken Pop Cron</li>
+                        <li>Lolly Pop</li>
+                        <li>Chicken Hot Papper</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!--CHINESE STARTERS  -->
+
+        <div class="chinesstarters" id="Chinese" style="display :none;">
+            <div class="chines-items">
+                <h1 class="chinesstarters-title">CHINESE*STARTERS</h1><br><br><br>
+                <div class="veg">
+                    <h3>VEG</h3>
+                    <ul>
+                        <li>Gobi Manchurian</li>
+                        <li>Gobi Dragon</li>
+                        <li>Mushroom Manchurian</li>
+                        <li>Baby Cron Manchurian</li>
+                        <li>Panner Manchurian</li>
+                        <li>Mushroom Dragon</li>
+                        <li>Baby Cron Dragon</li>
+                        <li>Panner Dragon</li>
+                    </ul>
+                </div>
+                <div class="non-veg">
+                    <h3>NON VEG</h3>
+                    <ul>
+                        <li>Chicken Manchurian</li>
+                        <li>Lemon Chicken</li>
+                        <li>Crispy Chicken</li>
+                        <li>Garlic Chicken</li>
+                        <li>Ginger Chicken</li>
+                        <li>Schezwan Chicken</li>
+                        <li>Dragon Chicken</li>
+                        <li>Hongkong Chicken</li>
+                        <li>777 Chicken</li>
+                        <li>Drums of Chicken</li>
+                        <li>Pukket Chicken</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+        <!--INDIAN STARTERS  -->
+
+        <div class="INDIANSTARTERS" id="indianstarters" style="display :none;">
+            <div class="indianstarters-items">
+                <h1 class="indianstarters-title">INDIAN*STARTERS</h1><br><br><br>
+                <div class="veg">
+                    <h3 class="veg">VEG</h3>
+                    <ul>
+                        <li>Jeera Aloo</li>
+                        <li>Mixed Veg fry</li>
+                        <li>Gobi Pepper Fry</li>
+                        <li>Mushroom Pepper Fry</li>
+                        <li>Jalfrezi Fry</li>
+                    </ul>
+                </div>
+                <div class="non-veg">
+                    <h3 class="non-veg">NON VEG</h3>
+                    <ul>
+                        <li>Chicken Chukka Dry</li>
+                        <li>Chettinad Chicken Dry</li>
+                        <li>Chicekn Pepper Fry</li>
+                        <li>Chicken Pallipalayam Dry</li>
+                        <li>Nebula Chicken Fry</li>
+                        <li>Chicken Ghee Roast Dry</li>
+                        <li>Motton Chukka</li>
+                        <li>Motton Pepper Fry</li>
+                        <li>Motton Chettinad Dry</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- shawarma -->
+
+        <div class="shawarma" id="shawarma" style="display: none;">
+            <div class="shawarma-items">
+                <h1 class="non-veg">SHAWARMA</h1><br>
+                <ul>
+                    <li>Chicken Shawarma</li>
+                    <li>Mexican Shawarma</li>
+                    <li>Cheese Shawarma</li>
+                    <li>Peri Peri Shawarma</li>
+                    <li>HULK Shawarma</li>
+                    <li>Special Shawarma</li>
+                </ul>
+            </div>
+        </div>
+        <!--   CHOPSUEY-->
+
+        <div class="CHOPSUEY" id="Chopsuey" style="display :none;">
+            <div class="chopsuey-items">
+                <h1 class="chopsuey-title">CHOPSUEY</h1><br><br><br>
+                <div class="veg">
+                    <h3>VEG</h3>
+                    <ul>
+                        <li>Veg American Chopsuey</li>
+                        <li>Veg Chinese Chopsuey</li>
+                    </ul>
+                </div>
+                <div class="non-veg">
+                    <h3>NON VEG</h3>
+                    <ul>
+                        <li>Non Veg American Chopsuey</li>
+                        <li>Non Veg Chinese Chopsuey</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- SEA FOOD-->
+
+
+        <div class="SEAFOOD" id="seafood" style="display :none;">
+            <div class="seafood-items">
+                <h1 class="SEA FOOD-title">SEA FOOD</h1><br>
+                <div class="non-veg">
+                    <ul>
+                        <li>Fish 65</li>
+                        <li>Fish Finger's (5P)</li>
+                        <li>Fish Manchurian</li>
+                        <li>Fish Pepper Fry</li>
+                        <li>Dragon Fish</li>
+                        <li>Pukket Fish</li>
+                        <li>Prawn 65</li>
+                        <li>Prawn Pepper Fry</li>
+                        <li>Dragon Prawn</li>
+                        <li>PrawnCocount Fry</li>
+                        <li>Crap Lolly Pop</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- rice and noodle-->
+
+        <div class="riceandnoodle" id="noodle" style="display :none;">
+            <div class="rice-noodles-items">
+                <h1 class="rice-noodles-title">RICE&NOODLES</h1><br><br><br>
+                <div class="veg">
+                    <h3>VEG</h3>
+                    <ul>
+                        <h4>Rice</h4>
+                        <li>(Normal / Schezwan) Veg Fried Rice</li>
+                        <li>(Normal / Schezwan) Jeera Rice</li>
+                        <li>(Normal / Schezwan) Gobi Rice</li>
+                        <li>(Normal / Schezwan) Baby Cron Rice</li>
+                        <li>(Normal / Schezwan) Mushroom Rice</li>
+                        <li>(Normal / Schezwan) Gee Rice</li>
+                        <li>(Normal / Schezwan) Panner Rice</li>
+                        <li>(Normal / Schezwan) Mixed Veg Rice</li>
+                        <h4>Noodles</h4>
+                        <li>(Normal / Schezwan) Veg Fried Noodles</li>
+                        <li>(Normal / Schezwan) Gobi Noodles</li>
+                        <li>(Normal / Schezwan) Baby Cron Noodles</li>
+                        <li>(Normal / Schezwan) Mushroom Noodles</li>
+                        <li>(Normal / Schezwan) Panner Noodles</li>
+                        <li>(Normal / Schezwan) Mixed Veg Noodles</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="non-veg">NON VEG</h3>
+                    <ul>
+                        <h4>Rice</h4>
+                        <li>(Normal / Schezwan) Egg Rice</li>
+                        <li>(Normal / Schezwan) Chicken Rice</li>
+                        <li>(Normal / Schezwan) Fish Rice</li>
+                        <li>(Normal / Schezwan) Prawn Rice</li>
+                        <li>(Normal / Schezwan) Mutton Rice</li>
+                        <h4>Noodles</h4>
+                        <li>(Normal / Schezwan) Egg Noodles</li>
+                        <li>(Normal / Schezwan) Chicken Noodles</li>
+                        <li>(Normal / Schezwan) Fish Noodles</li>
+                        <li>(Normal / Schezwan) Prawn Noodles</li>
+                        <li>(Normal / Schezwan) Mutton Noodles</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- INDIAN GRAVY -->
+
+        <div class="INDIANGRAVY" id="indiangravy" style="display :none;">
+            <div class="indian-gravy-items">
+                <h1 class="indian-gravy-title">INDIAN*GRAVY</h1><br><br><br>
+                <div class="veg">
+                    <h3>VEG</h3>
+                    <ul>
+                        <li>Gobi Masala</li>
+                        <li>Green Peas Masala</li>
+                        <li>Mushroom Masala</li>
+                        <li>Kadai Gobi</li>
+                        <li>Veg kadai</li>
+                        <li>Mixed Veg Gravy</li>
+                        <li>Kadai Mushroom Gravy</li>
+                        <li>Kadai Panner Gravy</li>
+                        <li>Panner Butter Masala</li>
+                        <li>Panner Tikka Masala</li>
+                    </ul>
+                </div>
+
+                <div class="non veg">
+                    <h3>NON VEG</h3>
+                    <ul>
+                        <li>Chicken Chettinad Gravy</li>
+                        <li>Pallipalayam chicken Gravy</li>
+                        <li>Hyderabad Chicken Gravy</li>
+                        <li>Andhra Chicken Gravy</li>
+                        <li>Kerala Chicken Gravy</li>
+                        <li>Kadai Chicken Gravy</li>
+                        <li>Pepper Chicken Masala</li>
+                        <li>Chicken Tikka Masala</li>
+                        <li>Butter Chicken Masala</li>
+                        <li>Nattu Koli Masala</li>
+                        <li>Hyderabad Mutton Gravy</li>
+                        <li>Andhra Mutton Gravy</li>
+                        <li>Pepper Mutton Masala</li>
+                        <li>Mutton Chettinad Gravy</li>
+                        <h5>SEA</h5>
+                        <li>Prawn Masala</li>
+                        <li>Prawn Pepper Masala</li>
+                        <li>Fish Chettinad Gravy</li>
+                        <li>Fish Kari Gravy</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!--  BIRYANIES -->
+
+        <div class="BIRYANIES" id="biriyani" style="display :none;">
+            <div class="biryani-items">
+                <h1 class="biriynies">BIRYANIES</h1><br>
+                <div class="biriyani">
+                    <ul>
+                        <li>Plain Biryani</li>
+                        <li>Egg Biryani</li>
+                        <li>Chicken Biryani</li>
+                        <li>Grill Chicken Biryani</li>
+                        <li>Hyderabad Biryani</li>
+                        <li>Tandoori Chicken Biryani</li>
+                        <li>Mutton Biryani</li>
+                        <li>Chicken 65 Biryani</li>
+                        <li>Prawn Biryani</li>
+                        <li>Veg Pulao</li>
+                        <li>Kashmir Pulao</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!--BREADS -->
+
+        <div class="BREADS" id="breads" style="display :none;">
+            <div class="breads-items">
+
+                <div class="naan">
+                    <h3>NAAN</h3>
+                    <ul>
+                        <li>Plain Naan</li>
+                        <li>Butter Naan</li>
+                        <li>Garlic Naan</li>
+                        <li>Cheese Naan</li>
+                        <li>Kashmir Naan</li>
+                    </ul>
+                </div>
+                <div class="kulcha">
+                    <h3>KULCHA</h3>
+                    <ul>
+                        <li>Cheese Kulcha</li>
+                        <li>Butter Kulcha</li>
+                        <li>Veg Stuffed Kulcha</li>
+                        <li>Masala Kulcha</li>
+                        <li>Panner Kulcha</li>
+                    </ul>
+                </div>
+                <div class="rooti">
+                    <h3>ROOTI</h3>
+                    <ul>
+                        <li>Tandoori Rooti</li>
+                        <li>Chapatti</li>
+                        <li>Butter Rooti</li>
+                        <li>Tandoori Paratha</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- TANDOORI -->
+
+        <div class="TANDOORI" id="tandoori" style="display :none;">
+            <div class="tandoori-items">
+                <h1 class="tandoori-title">TANDOORI</h1><br><br>
+                <div class="veg">
+                    <ul>
+                        <h3 class="veg">VEG</h3>
+                        <li>Gobi Tikka</li>
+                        <li>Mushroom Tikka</li>
+                        <li>Panner Tikka</li>
+                        <li>Hariyali Panner Tikka</li>
+                        <li>Tandoori Baby Corn</li>
+                    </ul>
+                </div>
+                <div class="non-veg">
+                    <ul>
+                        <h3 class="non-veg">NON VEG</h3>
+                        <li>Tandoori Chicken</li>
+                        <li>Tandoori Pepper Fry</li>
+                        <li>Tangdi Kebab</li>
+                        <li>Chicken Tikka</li>
+                        <li>Pepper Lemon Kebab</li>
+                        <li>Hariyali Kebab</li>
+                        <li>Reshmi Kebab</li>
+                        <li>Malai Kebab</li>
+                        <li>Chicken Seek Kebab</li>
+                        <li>Mutton Seek Kebab</li>
+                        <li>Cheese Kebab</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- GRILL -->
+
+        <div class="GRILL" id="grill" style="display :none;">
+            <div class="grill-items">
+                <h1 class="non-veg">GRILL</h1><br>
+                <ul>
+                    <li>Normal Grill Chicekn</li>
+                    <li><acronym title="Bar Be Que">BBQ</acronym> Grill Chicekn</li>
+                    <li>Grill Pepper Fry</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- EGG -->
+
+        <div class="EGG" id="egg" style="display :none;">
+            <div class="egg-items">
+                <h1 class="non-veg">EGG</h1><br>
+                <ul>
+                    <li>Boiled Egg</li>
+                    <li>Half Boil</li>
+                    <li>Egg Omelette</li>
+                    <li>Kalaki</li>
+                    <li>Egg Masala</li>
+                    <li>Egg Gravy</li>
+                </ul>
+            </div>
+        </div>
+
+
+        <!-- KAADAI -->
+
+        <div class="KAADAI" id="kaadai" style="display :none;">
+            <div class="kaadai-items">
+                <h1 class="non-veg">KAADAI</h1><br>
+                <ul>
+                    <li>Kaadai 65</li>
+                    <li>Kaadai Full Fry</li>
+                    <li>Kaadai Pepper Fry</li>
+                    <li>Kaadai Chilli</li>
+                    <li>Kaadai Chettinad Gravy</li>
+                    <li>Kaadai Masala</li>
+                </ul>
+            </div>
+        </div>
+
+        <!--NEBULA SPECIALS -->
+
+        <div class="NEBULASPECIALS" id="nebulaspl" style="display :none;">
+            <div class="NEBULA-SPECIALS-items">
+                <h1>NEBULA SPECIALS</h1><br>
+                <ul>
+                    <li>Nebula <acronym title="Special">Spl</acronym> Rice</li>
+                    <li>Bread Basket</li>
+                    <li>Kashmir Pulao Rice</li>
+                    <li>Chicekn Lazzez</li>
+                    <li>Hangama Chicekn Dry</li>
+                    <li>Mutton Lazzez</li>
+                    <li>Japanesh Chicken Dry</li>
+                    <li>Mutton Rogan Josh Dry</li>
+                    <li>Spanish Chicken Dry</li>
+                    <li>Mutton Hangama Dry</li>
+                </ul>
+            </div>
+
+        </div>
+
+        <!-- BEVERAGES
+        -->
+
+
+        <div class="BEVERAGES" id="beverages" style="display :none;">
+            <div class="BEVERAGES-items">
+                <div class="goli soda">
+                    <h3>GOLI SODA</h3>
+                    <ul>
+                        <li>Lemon Soda</li>
+                        <li>Panner Soda</li>
+                        <li>Nannari Soda</li>
+                        <li>Sweet & Salt</li>
+                    </ul>
+                </div>
+                <div class="mojito">
+                    <h3>MOJITO</h3>
+                    <ul>
+                        <li>Mint</li>
+                        <li>Blue Curacao</li>
+                        <li>Ginger Lime</li>
+                    </ul>
+                </div>
+                <div class="milk shake">
+                    <h3>MILK SHAKE</h3>
+                    <ul>
+                        <li>Banana</li>
+                        <li>Vennila</li>
+                        <li>Strawberry</li>
+                        <li>Chocolate</li>
+                        <li>Mango</li>
+                        <li>Pista</li>
+                        <li>Kit Kat Milk Shake</li>
+                        <li>Oreo Milk Shake</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+        <!--ICE CREAMS -->
+
+        <div class="ICECREAMS" id="icecreams" style="display :none;">
+            <div class="ice-cream-items">
+                <h1 class="ice cream-title">ICE CREAMS</h1><br>
+                <ul>
+                    <li>Butter Scotch</li>
+                    <li>Pista</li>
+                    <li>Living Delight</li>
+                    <li>Spanesh Delight</li>
+                    <li>Dry Fruits Honey</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- menu content ends -->
+    <footer>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/profile.php?id=100084342821997&mibextid=ZbWKwL"><i
+                    class="fab fa-facebook-f"></i></a>
+            <a href="https://wa.me/c/918778844002 "><i class="fab fa-whatsapp"></i></a>
+            <a href="https://instagram.com/nebula_restaurant_13?igshid=MmU2YjMzNjRlOQ=="><i
+                    class="fab fa-instagram"></i></a>
+            <a href="mailto:nebulathanu13@gmail.com"><i class="far fa-envelope"></i></a>
+
+        </div>
+        <div class="copyright">
+            <p>&copy; SM Creation Pvt.Ltd. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
